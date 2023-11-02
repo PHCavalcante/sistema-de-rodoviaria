@@ -6,17 +6,17 @@ class Viagem:
         self.destino = destino
     
     def sua_viagem(self):
-        print("Você está viajando para", destino, "Distância da viagem". distancia, "Boa viagem!")
+        print(f"Você está viajando para", self.destino + "!", "Distância da viagem", self.distancia + "Km"", " "tempo da viagem", self.tempo, "horas"",", "Boa viagem!")
     def valor_passagem(self):
-        print("Sua viagem para", destino, "custa", preco)
-        
-Aracaju = Viagem(preco= 80, tempo= 5, distancia= 281.1, destino="Aracaju")
-Salvador = Viagem(preco= 90, tempo=8, distancia= 470.3, destino="Salvador")
-Recife = Viagem(preco= 115, tempo=9, distancia= 447.4, destino="Recife")
-Petrolandia = Viagem(preco= 50, tempo=2, distancia= 63.4, destino="Petrollândia")
-Senhor_do_Bonfim = Viagem(preco=90, tempo= 5, distancia= 397.5, destino="Senhor do bomfim")
-Garanhuns = Viagem(preco=100, tempo=6, distancia= 219.9, destino="Garanhuns")
-Serra_Talhada = Viagem(preco=80, tempo=5, distancia= 214.1, destino="Serra Talhada")
-Floresta = Viagem(preco=85, tempo=4, distancia= 98.2, destino="Floresta")
-Delmiro_Golveia = Viagem(preco=40, tempo=1.30, distancia= 37.7, destino="Delmiro Golveia")
-Arapiraca = Viagem(preco=70 , tempo=6, distancia= 203.6, destino="Arapiraca")
+        print(f"Sua passagem para", self.destino, "custa", self.preco + "$")
+
+Aracaju = Viagem("80", "6", "281.1", "Aracaju")
+Salvador = Viagem("90", "8", "470.3", "Salvador")
+Recife = Viagem("115", "9", "447.4", "Recife")
+Petrolandia = Viagem("50", "2", "63.4", "Petrolândia")
+Senhor_do_Bonfim = Viagem("90", "5", "397.5", "Senhor do bomfim")
+Garanhuns = Viagem("100", "6", "219.9", "Garanhuns")
+Serra_Talhada = Viagem("80", "5", "214.1", "Serra Talhada")
+Floresta = Viagem("85", "4", "98.2", "Floresta")
+Delmiro_Golveia = Viagem("40", "1.30", "37.7", "Delmiro Golveia")
+Arapiraca = Viagem("70", "6", "203.6", "Arapiraca")

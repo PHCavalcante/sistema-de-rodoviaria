@@ -1,4 +1,14 @@
 from viagem import Viagem
+from viagem import Aracaju
+from viagem import Salvador
+from viagem import Recife
+from viagem import Petrolandia
+from viagem import Senhor_do_Bonfim
+from viagem import Garanhuns
+from viagem import Serra_Talhada
+from viagem import Floresta
+from viagem import Delmiro_Golveia
+from viagem import Arapiraca
 
 print("=========================")
 print("FAÇA SUA ESCOLHA:")
@@ -14,6 +24,52 @@ print("9 - Delmiro Golveia 40$")
 print(" 10 - Arapiraca - 70$")
 print("=========================")
 
-escolha = int(input("Digite o número do seu destino"))
+escolha = int(input("Digite o número do seu destino: "))
 
-sua_viagem()
+while (True):
+    if escolha == 1:
+        Aracaju.valor_passagem()
+        Aracaju.sua_viagem()
+        break
+    elif escolha == 2:
+        Salvador.valor_passagem()
+        Salvador.sua_viagem()
+        break
+    elif escolha == 3:
+        Recife.valor_passagem()
+        Recife.sua_viagem()
+        break
+    elif escolha == 4:
+        Petrolandia.valor_passagem()
+        Petrolandia.sua_viagem()
+        break
+    elif escolha == 5:
+        Senhor_do_Bonfim.valor_passagem()
+        Senhor_do_Bonfim.sua_viagem()
+        break
+    elif escolha == 6:
+        Garanhuns.valor_passagem()
+        Garanhuns.sua_viagem()
+        break
+    elif escolha == 7:
+        Serra_Talhada.valor_passagem()
+        Serra_Talhada.sua_viagem()
+        break
+    elif escolha == 8:
+        Floresta.valor_passagem()
+        Floresta.sua_viagem()
+        break
+    elif escolha == 9:
+        Delmiro_Golveia.valor_passagem()
+        Delmiro_Golveia.sua_viagem()
+        break
+    elif escolha == 10:
+        Arapiraca.valor_passagem()
+        Arapiraca.sua_viagem()
+        break
+    while escolha not in(1,10):
+        print("Valor invalido! por favor digite apenas um dos números informados.")
+        escolha = int(input("Digite novamente o numero de passagem desejado: "))
+        if escolha == (1, 10):
+            print("Número válido!")
+        break
