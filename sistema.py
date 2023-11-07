@@ -53,10 +53,10 @@ while(True):
 
     print("===========================")
     print("DIGITE O HORÁRIO DESEJADO: ")
-    print("1 - 07-00h")
-    print("2 - 10-00h")
+    print("1 - 07:00h")
+    print("2 - 10:00h")
     print("3 - 13:00h")
-    print("4 - 15;00h")
+    print("4 - 15:00h")
     print("===========================")
 
     horario = int(input("Digite o horário de partida desejado: "))
