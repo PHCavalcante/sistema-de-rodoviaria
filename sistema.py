@@ -1,8 +1,9 @@
 import os
-# from viagem import Terminal
-# from viagem import Viagem_Paulo_Afonso
-# from viagem_paulo_afonso import Viagem_Demiro
-# from viagem_paulo_afonso import Viagem_Nossa_Senhora_Da_Gloria
+""""
+from viagem import Terminal
+from viagem import Viagem_Paulo_Afonso
+from viagem_paulo_afonso import Viagem_Demiro
+from viagem_paulo_afonso import Viagem_Nossa_Senhora_Da_Gloria
 from viagem_paulo_afonso import Aracaju
 from viagem_paulo_afonso import Salvador
 from viagem_paulo_afonso import Recife
@@ -13,6 +14,7 @@ from viagem_paulo_afonso import Serra_Talhada
 from viagem_paulo_afonso import Floresta
 from viagem_paulo_afonso import Delmiro_Golveia
 from viagem_paulo_afonso import Arapiraca
+"""
 
 def funcao_horario(hora):
     print("Sua saída está marcada para as " + hora, "horas! não se atrase!")
@@ -62,14 +64,43 @@ while (True):
     os.system('cls')
     break
 
-def funcao_terminal():
+def funcao_terminal(local):
     if terminal == 1:
         from viagem_paulo_afonso import Viagem_Paulo_Afonso
+        from viagem_paulo_afonso import Aracaju
+        from viagem_paulo_afonso import Salvador
+        from viagem_paulo_afonso import Recife
+        from viagem_paulo_afonso import Petrolandia
+        from viagem_paulo_afonso import Senhor_do_Bonfim
+        from viagem_paulo_afonso import Garanhuns
+        from viagem_paulo_afonso import Serra_Talhada
+        from viagem_paulo_afonso import Floresta
+        from viagem_paulo_afonso import Delmiro_Golveia
+        from viagem_paulo_afonso import Arapiraca
     elif terminal == 2:
         from viagem_glória import Viagem_Nossa_Senhora_Da_Gloria
+        from viagem_glória import Aracaju
+        from viagem_glória import Salvador
+        from viagem_glória import Recife
+        from viagem_glória import Petrolandia
+        from viagem_glória import Senhor_do_Bonfim
+        from viagem_glória import Garanhuns
+        from viagem_glória import Serra_Talhada
+        from viagem_glória import Floresta
+        from viagem_glória import Delmiro_Golveia
+        from viagem_glória import Arapiraca
     else:
         from viagem_delmiro import Viagem_Demiro
-
+        from viagem_delmiro import Aracaju
+        from viagem_delmiro import Salvador
+        from viagem_delmiro import Recife
+        from viagem_delmiro import Petrolandia
+        from viagem_delmiro import Senhor_do_Bonfim
+        from viagem_delmiro import Garanhuns
+        from viagem_delmiro import Serra_Talhada
+        from viagem_delmiro import Floresta
+        from viagem_delmiro import Delmiro_Golveia
+        from viagem_delmiro import Arapiraca
 
 while (True):
     if escolha == 1:
