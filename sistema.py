@@ -53,12 +53,12 @@ while horario < 1 or horario > 4:
     os.system('cls')
     print("Horário inválido!, por favor, selecione apenas os horários disponiveis:")
     print("===========================")
-    horario = int(input("DIGITE O HORÁRIO DESEJADO: "))
     print("1 - 07:00h")
     print("2 - 10:00h")
     print("3 - 13:00h")
     print("4 - 15:00h")
     print("===========================")
+    horario = int(input("DIGITE O HORÁRIO DESEJADO: "))
 
 # Muda o toda a tragetória, valores, preços, e distância dependendo de qual terminal o cliente escolhe
 # (não ficou muito bonito mas foi o único que funcionou)
